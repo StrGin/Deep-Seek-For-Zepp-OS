@@ -1,0 +1,5 @@
+msgid "写点什么"
+msgstr "寫點什麼"
+
+msgid "新的对话"
+msgstr "新的對話"

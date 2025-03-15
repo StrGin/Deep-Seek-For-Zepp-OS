@@ -1,0 +1,5 @@
+msgid "写点什么"
+msgstr "Write sth"
+
+msgid "新的对话"
+msgstr "New conversation"

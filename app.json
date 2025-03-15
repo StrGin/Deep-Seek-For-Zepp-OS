@@ -1,0 +1,63 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 20111020,
+    "appName": "DeepSeek",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "Struggle",
+    "description": "DeepSeek unofficial Zepp OS client"
+  },
+  "permissions": [
+    "data:os.device.info",
+    "device:os.local_storage"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.0.0",
+      "target": "3.0.0",
+      "minVersion": "3.0"
+    }
+  },
+  "targets": {
+    "common": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/Index",
+            "page/Home",
+            "page/Board",
+            "page/TextView",
+            "page/About",
+            "page/Github",
+            "page/Version",
+            "page/Add"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        }
+      },
+      "platforms": [
+        {
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "st": "s",
+          "dw": 390
+        }
+      ]
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "DeepSeek"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
